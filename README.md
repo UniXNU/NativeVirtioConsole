@@ -1,5 +1,7 @@
 # NativeVirtioConsole
 
-Virtio console transport.
+Virtio console transport. Carries the offline GPU broker and diagnostic channels.
 
-Maintained as an independent module and included by [UniXNU](https://github.com/UniXNU/UniXNU) at `drivers/NativeVirtioConsole`.
+Current state: used by the QEMU GPU instruments.
+
+Linked into XNU by `unixnu build kernel`.
