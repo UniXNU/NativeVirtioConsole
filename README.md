@@ -1,7 +1,7 @@
-# NativeVirtioConsole
+# VirtioMmioConsole
 
-Virtio console transport. Carries the offline GPU broker and diagnostic channels.
+VirtIO MMIO console transport.
 
-Current state: used by the QEMU GPU instruments.
+used by the QEMU GPU instruments.
 
-Linked into XNU by `unixnu build kernel`.
+Build and interface details: [documentation](https://unixnu.com/drivers/virtio-mmio-console). Component sources and dependencies: [catalog](https://unixnu.com/reference/components).
